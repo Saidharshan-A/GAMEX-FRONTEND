@@ -6,7 +6,7 @@ export const allProducts = [
     "originalPrice": 53037,
     "rating": 3.9,
     "isNew": false,
-    "image": "/images/gen_corsair_1.png"
+    "image": import.meta.env.BASE_URL + "images/gen_corsair_1.png"
   },
   {
     "name": "Lenovo Legion Gaming PC 216",
@@ -15,7 +15,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": true,
-    "image": "/images/gen_lenovo_1.png"
+    "image": import.meta.env.BASE_URL + "images/gen_lenovo_1.png"
   },
   {
     "name": "HP Omen Gaming PC 705",
@@ -24,7 +24,7 @@ export const allProducts = [
     "originalPrice": 64949,
     "rating": 4.8,
     "isNew": false,
-    "image": "/images/gen_hp_1.png"
+    "image": import.meta.env.BASE_URL + "images/gen_hp_1.png"
   },
   {
     "name": "Lenovo Legion Pre-built Desktop 489",
@@ -33,7 +33,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 5,
     "isNew": true,
-    "image": "/images/gen_lenovo_2.png"
+    "image": import.meta.env.BASE_URL + "images/gen_lenovo_2.png"
   },
   {
     "name": "Corsair Vengeance PC Pre-built Desktop 337",
@@ -42,7 +42,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": false,
-    "image": "/images/gen_corsair_2.png"
+    "image": import.meta.env.BASE_URL + "images/gen_corsair_2.png"
   },
   {
     "name": "Corsair Vengeance PC Pre-built Desktop 569",
@@ -51,7 +51,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "/images/gen_corsair_3.png"
+    "image": import.meta.env.BASE_URL + "images/gen_corsair_3.png"
   },
   {
     "name": "Corsair Vengeance PC Streaming PC 273",
@@ -60,7 +60,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "/images/gen_corsair_4.png"
+    "image": import.meta.env.BASE_URL + "images/gen_corsair_4.png"
   },
   {
     "name": "Lenovo Legion Streaming PC 77",
@@ -69,7 +69,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "/images/gen_lenovo_3.png"
+    "image": import.meta.env.BASE_URL + "images/gen_lenovo_3.png"
   },
   {
     "name": "Lenovo Legion Gaming PC 773",
@@ -78,7 +78,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "/images/gen_lenovo_4.png"
+    "image": import.meta.env.BASE_URL + "images/gen_lenovo_4.png"
   },
   {
     "name": "Alienware Aurora Pre-built Desktop 779",
@@ -87,7 +87,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": false,
-    "image": "/images/gen_alienware_1.png"
+    "image": import.meta.env.BASE_URL + "images/gen_alienware_1.png"
   },
   {
     "name": "HP Omen Gaming PC 422",
@@ -96,7 +96,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": true,
-    "image": "/images/gen_hp_2.png"
+    "image": import.meta.env.BASE_URL + "images/gen_hp_2.png"
   },
   {
     "name": "HP Omen Esports Rig 574",
@@ -105,7 +105,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "/images/gen_hp_3.png"
+    "image": import.meta.env.BASE_URL + "images/gen_hp_3.png"
   },
   {
     "name": "Corsair Vengeance PC Gaming PC 319",
@@ -114,7 +114,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "/images/gen_corsair_5.png"
+    "image": import.meta.env.BASE_URL + "images/gen_corsair_5.png"
   },
   {
     "name": "Alienware Aurora Pre-built Desktop 587",
@@ -123,7 +123,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "/images/gen_alienware_2.png"
+    "image": import.meta.env.BASE_URL + "images/gen_alienware_2.png"
   },
   {
     "name": "Corsair Vengeance PC Streaming PC 96",
@@ -132,7 +132,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.6,
     "isNew": false,
-    "image": "/images/gen_corsair_6.png"
+    "image": import.meta.env.BASE_URL + "images/gen_corsair_6.png"
   },
   {
     "name": "ASUS RTX 4090 664",
@@ -141,7 +141,7 @@ export const allProducts = [
     "originalPrice": 140851,
     "rating": 4.7,
     "isNew": false,
-    "image": "/images/gpu_fallback_0.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_0.jpg"
   },
   {
     "name": "Gigabyte RTX 4060 Ti 79",
@@ -150,7 +150,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": true,
-    "image": "/images/gpu_fallback_1.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_1.jpg"
   },
   {
     "name": "MSI RTX 4070 22",
@@ -159,7 +159,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.2,
     "isNew": false,
-    "image": "/images/gpu_fallback_2.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_2.jpg"
   },
   {
     "name": "MSI RTX 4080 5",
@@ -168,7 +168,7 @@ export const allProducts = [
     "originalPrice": 39921,
     "rating": 4.7,
     "isNew": false,
-    "image": "/images/gpu_fallback_3.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_3.jpg"
   },
   {
     "name": "NVIDIA RTX 4070 837",
@@ -177,7 +177,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "/images/gpu_fallback_4.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_4.jpg"
   },
   {
     "name": "AMD RX 7900 XTX 785",
@@ -186,7 +186,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.7,
     "isNew": false,
-    "image": "/images/gpu_fallback_5.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_5.jpg"
   },
   {
     "name": "Gigabyte RTX 4090 573",
@@ -195,7 +195,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "/images/gpu_fallback_6.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_6.jpg"
   },
   {
     "name": "NVIDIA RTX 4090 668",
@@ -204,7 +204,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "/images/gpu_fallback_7.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_7.jpg"
   },
   {
     "name": "MSI RTX 4090 319",
@@ -213,7 +213,7 @@ export const allProducts = [
     "originalPrice": 136112,
     "rating": 4.8,
     "isNew": false,
-    "image": "/images/gpu_fallback_8.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_8.jpg"
   },
   {
     "name": "MSI RTX 4070 959",
@@ -222,7 +222,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "/images/gpu_fallback_9.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_9.jpg"
   },
   {
     "name": "MSI RX 7800 XT 575",
@@ -231,7 +231,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "/images/gpu_fallback_10.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_10.jpg"
   },
   {
     "name": "AMD RTX 4090 205",
@@ -240,7 +240,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "/images/gpu_fallback_11.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_11.jpg"
   },
   {
     "name": "Zotac RTX 3060 407",
@@ -249,7 +249,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": false,
-    "image": "/images/gpu_fallback_12.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_12.jpg"
   },
   {
     "name": "MSI RTX 4090 453",
@@ -258,7 +258,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": false,
-    "image": "/images/gpu_fallback_13.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_13.jpg"
   },
   {
     "name": "Gigabyte RTX 4060 Ti 497",
@@ -267,7 +267,7 @@ export const allProducts = [
     "originalPrice": 146224,
     "rating": 5,
     "isNew": true,
-    "image": "/images/gpu_fallback_14.jpg"
+    "image": import.meta.env.BASE_URL + "images/gpu_fallback_14.jpg"
   },
   {
     "name": "AMD Ryzen i7-14700K 836",
@@ -276,7 +276,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=31"
+    "image": import.meta.env.BASE_URL + "images/cpu_amd.png"
   },
   {
     "name": "AMD Ryzen i9-14900K 785",
@@ -285,7 +285,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=32"
+    "image": import.meta.env.BASE_URL + "images/cpu_amd.png"
   },
   {
     "name": "Intel Core i9-14900K 0",
@@ -294,7 +294,7 @@ export const allProducts = [
     "originalPrice": 15311,
     "rating": 3.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=33"
+    "image": import.meta.env.BASE_URL + "images/cpu_intel.png"
   },
   {
     "name": "Intel Core i9-14900K 730",
@@ -303,7 +303,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=34"
+    "image": import.meta.env.BASE_URL + "images/cpu_intel.png"
   },
   {
     "name": "AMD Ryzen i7-14700K 497",
@@ -312,7 +312,7 @@ export const allProducts = [
     "originalPrice": 21211,
     "rating": 4.5,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=35"
+    "image": import.meta.env.BASE_URL + "images/cpu_amd.png"
   },
   {
     "name": "Intel Core i7-14700K 378",
@@ -321,7 +321,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=36"
+    "image": import.meta.env.BASE_URL + "images/cpu_intel.png"
   },
   {
     "name": "Intel Core i7-14700K 133",
@@ -330,7 +330,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=37"
+    "image": import.meta.env.BASE_URL + "images/cpu_intel.png"
   },
   {
     "name": "AMD Ryzen i7-14700K 151",
@@ -339,7 +339,7 @@ export const allProducts = [
     "originalPrice": 16270,
     "rating": 3.6,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=38"
+    "image": import.meta.env.BASE_URL + "images/cpu_amd.png"
   },
   {
     "name": "Intel Core Ryzen 7 7800X3D 706",
@@ -348,7 +348,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=39"
+    "image": import.meta.env.BASE_URL + "images/cpu_intel.png"
   },
   {
     "name": "AMD Ryzen Ryzen 9 7950X 7",
@@ -357,7 +357,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=40"
+    "image": import.meta.env.BASE_URL + "images/cpu_amd.png"
   },
   {
     "name": "Intel Core i5-13600K 768",
@@ -366,7 +366,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=41"
+    "image": import.meta.env.BASE_URL + "images/cpu_intel.png"
   },
   {
     "name": "AMD Ryzen i9-14900K 150",
@@ -375,7 +375,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=42"
+    "image": import.meta.env.BASE_URL + "images/cpu_amd.png"
   },
   {
     "name": "Intel Core i9-14900K 487",
@@ -384,7 +384,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=43"
+    "image": import.meta.env.BASE_URL + "images/cpu_intel.png"
   },
   {
     "name": "Intel Core Ryzen 7 7800X3D 857",
@@ -393,7 +393,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=44"
+    "image": import.meta.env.BASE_URL + "images/cpu_intel.png"
   },
   {
     "name": "AMD Ryzen Ryzen 9 7950X 396",
@@ -402,7 +402,7 @@ export const allProducts = [
     "originalPrice": 23978,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpu,processor?lock=45"
+    "image": import.meta.env.BASE_URL + "images/cpu_amd.png"
   },
   {
     "name": "Gigabyte AORUS Z790 693",
@@ -411,7 +411,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=46"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "ASRock B650 567",
@@ -420,7 +420,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=47"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "Gigabyte AORUS B760 783",
@@ -429,7 +429,7 @@ export const allProducts = [
     "originalPrice": 34141,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=48"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "ASUS ROG B760 918",
@@ -438,7 +438,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=49"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "ASUS ROG B650 901",
@@ -447,7 +447,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=50"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "ASRock Z690 919",
@@ -456,7 +456,7 @@ export const allProducts = [
     "originalPrice": 28356,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=51"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "MSI MPG Z690 753",
@@ -465,7 +465,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=52"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "ASRock B650 754",
@@ -474,7 +474,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=53"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "ASRock X670E 264",
@@ -483,7 +483,7 @@ export const allProducts = [
     "originalPrice": 25177,
     "rating": 4.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=54"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "Gigabyte AORUS B760 456",
@@ -492,7 +492,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=55"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "MSI MPG Z790 575",
@@ -501,7 +501,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.2,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=56"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "ASRock Z690 979",
@@ -510,7 +510,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=57"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "MSI MPG Z790 714",
@@ -519,7 +519,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.5,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=58"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "Gigabyte AORUS Z790 760",
@@ -528,7 +528,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=59"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "Gigabyte AORUS B760 355",
@@ -537,7 +537,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/motherboard,computer?lock=60"
+    "image": import.meta.env.BASE_URL + "images/cat_motherboard.png"
   },
   {
     "name": "G.Skill Trident 32GB DDR5-6000 480",
@@ -546,7 +546,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=61"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Kingston FURY 64GB DDR5-6400 984",
@@ -555,7 +555,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=62"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "G.Skill Trident 32GB DDR4-3600 683",
@@ -564,7 +564,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=63"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Corsair Vengeance 32GB DDR5-6000 538",
@@ -573,7 +573,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=64"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Corsair Vengeance 32GB DDR4-3600 442",
@@ -582,7 +582,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=65"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Kingston FURY 16GB DDR5-5600 639",
@@ -591,7 +591,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=66"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "G.Skill Trident 32GB DDR5-6000 301",
@@ -600,7 +600,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=67"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Corsair Vengeance 64GB DDR5-6400 2",
@@ -609,7 +609,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=68"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Corsair Vengeance 64GB DDR5-6400 392",
@@ -618,7 +618,7 @@ export const allProducts = [
     "originalPrice": 13169,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=69"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "G.Skill Trident 32GB DDR4-3600 56",
@@ -627,7 +627,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=70"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Kingston FURY 32GB DDR4-3600 248",
@@ -636,7 +636,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=71"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Crucial 32GB DDR4-3600 658",
@@ -645,7 +645,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=72"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Corsair Vengeance 32GB DDR5-6000 443",
@@ -654,7 +654,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=73"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Crucial 64GB DDR5-6400 45",
@@ -663,7 +663,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=74"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Corsair Vengeance 32GB DDR4-3600 366",
@@ -672,7 +672,7 @@ export const allProducts = [
     "originalPrice": 15625,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ram,memory,pc?lock=75"
+    "image": import.meta.env.BASE_URL + "images/cat_memory.png"
   },
   {
     "name": "Samsung 980 4TB HDD 288",
@@ -681,7 +681,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.9,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=76"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "WD Black 4TB HDD 0",
@@ -690,7 +690,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=77"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Seagate FireCuda 500GB SSD 407",
@@ -699,7 +699,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=78"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Seagate FireCuda 4TB HDD 481",
@@ -708,7 +708,7 @@ export const allProducts = [
     "originalPrice": 18219,
     "rating": 3.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=79"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "WD Black 1TB Gen4 SSD 640",
@@ -717,7 +717,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=80"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "WD Black 4TB HDD 632",
@@ -726,7 +726,7 @@ export const allProducts = [
     "originalPrice": 20035,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=81"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Crucial P3 500GB SSD 580",
@@ -735,7 +735,7 @@ export const allProducts = [
     "originalPrice": 23712,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=82"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Samsung 980 1TB Gen4 SSD 286",
@@ -744,7 +744,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=83"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Crucial P3 4TB HDD 806",
@@ -753,7 +753,7 @@ export const allProducts = [
     "originalPrice": 19030,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=84"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Crucial P3 4TB HDD 148",
@@ -762,7 +762,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=85"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Seagate FireCuda 1TB Gen4 SSD 645",
@@ -771,7 +771,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=86"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Seagate FireCuda 2TB NVMe SSD 275",
@@ -780,7 +780,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=87"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Crucial P3 2TB NVMe SSD 367",
@@ -789,7 +789,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=88"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "WD Black 500GB SSD 537",
@@ -798,7 +798,7 @@ export const allProducts = [
     "originalPrice": 21074,
     "rating": 4.5,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=89"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Seagate FireCuda 1TB Gen4 SSD 21",
@@ -807,7 +807,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/ssd,harddrive?lock=90"
+    "image": import.meta.env.BASE_URL + "images/cat_storage.png"
   },
   {
     "name": "Cooler Master Dual Tower Air Cooler 978",
@@ -816,7 +816,7 @@ export const allProducts = [
     "originalPrice": 20579,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=91"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Cooler Master Dual Tower Air Cooler 532",
@@ -825,7 +825,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=92"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "NZXT Kraken 240mm Liquid Cooler 691",
@@ -834,7 +834,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=93"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Corsair iCUE Dual Tower Air Cooler 34",
@@ -843,7 +843,7 @@ export const allProducts = [
     "originalPrice": 23747,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=94"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Cooler Master 240mm Liquid Cooler 560",
@@ -852,7 +852,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=95"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Cooler Master 240mm Liquid Cooler 315",
@@ -861,7 +861,7 @@ export const allProducts = [
     "originalPrice": 4980,
     "rating": 4,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=96"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Noctua 240mm Liquid Cooler 377",
@@ -870,7 +870,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=97"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Cooler Master 360mm AIO 947",
@@ -879,7 +879,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=98"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Corsair iCUE 360mm AIO 507",
@@ -888,7 +888,7 @@ export const allProducts = [
     "originalPrice": 11216,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=99"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Noctua 360mm AIO 649",
@@ -897,7 +897,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=100"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Corsair iCUE 360mm AIO 392",
@@ -906,7 +906,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=101"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Cooler Master 120mm RGB Fan Pack 983",
@@ -915,7 +915,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=102"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Corsair iCUE 360mm AIO 383",
@@ -924,7 +924,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=103"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Cooler Master 120mm RGB Fan Pack 810",
@@ -933,7 +933,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=104"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "Cooler Master 360mm AIO 871",
@@ -942,7 +942,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/cpucooler,fan,pc?lock=105"
+    "image": import.meta.env.BASE_URL + "images/cat_cooling.png"
   },
   {
     "name": "EVGA SuperNOVA 850W 80+ Gold 733",
@@ -951,7 +951,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=106"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "EVGA SuperNOVA 750W Fully Modular 657",
@@ -960,7 +960,7 @@ export const allProducts = [
     "originalPrice": 19114,
     "rating": 4.1,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=107"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "EVGA SuperNOVA 650W Bronze 885",
@@ -969,7 +969,7 @@ export const allProducts = [
     "originalPrice": 17250,
     "rating": 5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=108"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Seasonic Focus 750W Fully Modular 502",
@@ -978,7 +978,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=109"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Seasonic Focus 1000W 80+ Platinum 930",
@@ -987,7 +987,7 @@ export const allProducts = [
     "originalPrice": 20065,
     "rating": 3.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=110"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Be Quiet! 1000W 80+ Platinum 864",
@@ -996,7 +996,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=111"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Be Quiet! 750W Fully Modular 604",
@@ -1005,7 +1005,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=112"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "EVGA SuperNOVA 750W Fully Modular 142",
@@ -1014,7 +1014,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=113"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Seasonic Focus 650W Bronze 700",
@@ -1023,7 +1023,7 @@ export const allProducts = [
     "originalPrice": 6068,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=114"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Be Quiet! 750W Fully Modular 461",
@@ -1032,7 +1032,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=115"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Corsair RMx 750W Fully Modular 374",
@@ -1041,7 +1041,7 @@ export const allProducts = [
     "originalPrice": 12188,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=116"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Be Quiet! 750W Fully Modular 43",
@@ -1050,7 +1050,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=117"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Be Quiet! 750W Fully Modular 437",
@@ -1059,7 +1059,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=118"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Corsair RMx 650W Bronze 460",
@@ -1068,7 +1068,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=119"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Corsair RMx 750W Fully Modular 9",
@@ -1077,7 +1077,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/powersupply,psu?lock=120"
+    "image": import.meta.env.BASE_URL + "images/cat_psu.png"
   },
   {
     "name": "Lian Li O11 Full-Tower E-ATX 4",
@@ -1086,7 +1086,7 @@ export const allProducts = [
     "originalPrice": 11214,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=121"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Fractal Design Full-Tower E-ATX 764",
@@ -1095,7 +1095,7 @@ export const allProducts = [
     "originalPrice": 11543,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=122"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Fractal Design Mini-ITX Chassis 658",
@@ -1104,7 +1104,7 @@ export const allProducts = [
     "originalPrice": 20976,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=123"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "NZXT H510 Mini-ITX Chassis 779",
@@ -1113,7 +1113,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=124"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Fractal Design Dual-Chamber Case 204",
@@ -1122,7 +1122,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=125"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Fractal Design Mid-Tower ATX 853",
@@ -1131,7 +1131,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=126"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "NZXT H510 Full-Tower E-ATX 379",
@@ -1140,7 +1140,7 @@ export const allProducts = [
     "originalPrice": 22238,
     "rating": 4.6,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=127"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Lian Li O11 Mid-Tower ATX 848",
@@ -1149,7 +1149,7 @@ export const allProducts = [
     "originalPrice": 14191,
     "rating": 3.6,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=128"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Corsair 4000D Full-Tower E-ATX 714",
@@ -1158,7 +1158,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=129"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Lian Li O11 Full-Tower E-ATX 287",
@@ -1167,7 +1167,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=130"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Lian Li O11 Mid-Tower ATX 449",
@@ -1176,7 +1176,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=131"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Lian Li O11 Dual-Chamber Case 347",
@@ -1185,7 +1185,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=132"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Corsair 4000D Full-Tower E-ATX 929",
@@ -1194,7 +1194,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=133"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "Lian Li O11 Full-Tower E-ATX 171",
@@ -1203,7 +1203,7 @@ export const allProducts = [
     "originalPrice": 8417,
     "rating": 4.4,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=134"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "NZXT H510 Full-Tower E-ATX 589",
@@ -1212,7 +1212,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.7,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/pccase,computer?lock=135"
+    "image": import.meta.env.BASE_URL + "images/cat_case.png"
   },
   {
     "name": "ASUS ROG 32\" 4K 144Hz 803",
@@ -1221,7 +1221,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=136"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "ASUS ROG 27\" 1440p 165Hz 954",
@@ -1230,7 +1230,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=137"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "Samsung Odyssey 34\" Ultrawide OLED 715",
@@ -1239,7 +1239,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=138"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "ASUS ROG 32\" 4K 144Hz 874",
@@ -1248,7 +1248,7 @@ export const allProducts = [
     "originalPrice": 103604,
     "rating": 4.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=139"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "Samsung Odyssey 24\" 1080p 240Hz 572",
@@ -1257,7 +1257,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=140"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "ASUS ROG 24\" 1080p 240Hz 567",
@@ -1266,7 +1266,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=141"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "LG UltraGear 27\" 1440p 165Hz 761",
@@ -1275,7 +1275,7 @@ export const allProducts = [
     "originalPrice": 110317,
     "rating": 4.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=142"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "Alienware 32\" 4K 144Hz 175",
@@ -1284,7 +1284,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=143"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "Samsung Odyssey 34\" Ultrawide OLED 687",
@@ -1293,7 +1293,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=144"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "Alienware 24\" 1080p 240Hz 224",
@@ -1302,7 +1302,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=145"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "ASUS ROG 24\" 1080p 240Hz 396",
@@ -1311,7 +1311,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=146"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "Samsung Odyssey 34\" Ultrawide OLED 258",
@@ -1320,7 +1320,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=147"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "BenQ ZOWIE 24\" 1080p 240Hz 519",
@@ -1329,7 +1329,7 @@ export const allProducts = [
     "originalPrice": 159813,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=148"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "Alienware 32\" 4K 144Hz 212",
@@ -1338,7 +1338,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=149"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "ASUS ROG 24\" 1080p 240Hz 428",
@@ -1347,7 +1347,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/monitor,display?lock=150"
+    "image": import.meta.env.BASE_URL + "images/cat_monitor.png"
   },
   {
     "name": "Keychron 60% Optical Keyboard 266",
@@ -1356,7 +1356,7 @@ export const allProducts = [
     "originalPrice": 16984,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=151"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "SteelSeries Mechanical Gaming Keyboard 27",
@@ -1365,7 +1365,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=152"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Razer 60% Optical Keyboard 168",
@@ -1374,7 +1374,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=153"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "SteelSeries Mechanical Gaming Keyboard 594",
@@ -1383,7 +1383,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=154"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "SteelSeries Mechanical Gaming Keyboard 583",
@@ -1392,7 +1392,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=155"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "SteelSeries TKL Wireless RGB 184",
@@ -1401,7 +1401,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=156"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "SteelSeries 60% Optical Keyboard 218",
@@ -1410,7 +1410,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.7,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=157"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Logitech G Low Profile Keyboard 420",
@@ -1419,7 +1419,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=158"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Keychron 60% Optical Keyboard 676",
@@ -1428,7 +1428,7 @@ export const allProducts = [
     "originalPrice": 14412,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=159"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Keychron 60% Optical Keyboard 94",
@@ -1437,7 +1437,7 @@ export const allProducts = [
     "originalPrice": 22768,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=160"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Logitech G Mechanical Gaming Keyboard 764",
@@ -1446,7 +1446,7 @@ export const allProducts = [
     "originalPrice": 11597,
     "rating": 3.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=161"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Keychron Low Profile Keyboard 742",
@@ -1455,7 +1455,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=162"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Keychron Low Profile Keyboard 923",
@@ -1464,7 +1464,7 @@ export const allProducts = [
     "originalPrice": 15605,
     "rating": 3.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=163"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Logitech G TKL Wireless RGB 521",
@@ -1473,7 +1473,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=164"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Corsair TKL Wireless RGB 383",
@@ -1482,7 +1482,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/keyboard,gaming?lock=165"
+    "image": import.meta.env.BASE_URL + "images/keyboard_razer.png"
   },
   {
     "name": "Logitech G Ultralight Mouse 56",
@@ -1491,7 +1491,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=166"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Glorious Symmetrical Esports Mouse 282",
@@ -1500,7 +1500,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=167"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Logitech G Ultralight Mouse 384",
@@ -1509,7 +1509,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=168"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Glorious Ultralight Mouse 252",
@@ -1518,7 +1518,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=169"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Zowie Ultralight Mouse 400",
@@ -1527,7 +1527,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=170"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "SteelSeries MMO Gaming Mouse 101",
@@ -1536,7 +1536,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=171"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Glorious MMO Gaming Mouse 192",
@@ -1545,7 +1545,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=172"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Logitech G Ultralight Mouse 763",
@@ -1554,7 +1554,7 @@ export const allProducts = [
     "originalPrice": 14050,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=173"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Glorious Ultralight Mouse 410",
@@ -1563,7 +1563,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=174"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Glorious Symmetrical Esports Mouse 436",
@@ -1572,7 +1572,7 @@ export const allProducts = [
     "originalPrice": 10032,
     "rating": 3.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=175"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Razer Symmetrical Esports Mouse 695",
@@ -1581,7 +1581,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=176"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Logitech G Ultralight Mouse 954",
@@ -1590,7 +1590,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=177"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Razer MMO Gaming Mouse 352",
@@ -1599,7 +1599,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=178"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Zowie MMO Gaming Mouse 957",
@@ -1608,7 +1608,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=179"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Glorious MMO Gaming Mouse 125",
@@ -1617,7 +1617,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/mouse,gaming?lock=180"
+    "image": import.meta.env.BASE_URL + "images/mouse_logitech.png"
   },
   {
     "name": "Logitech G Noise Cancelling Headset 404",
@@ -1626,7 +1626,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=181"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "SteelSeries Arctis Open-Back Headset 189",
@@ -1635,7 +1635,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=182"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "SteelSeries Arctis Open-Back Headset 502",
@@ -1644,7 +1644,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=183"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "Logitech G Open-Back Headset 894",
@@ -1653,7 +1653,7 @@ export const allProducts = [
     "originalPrice": 23356,
     "rating": 4.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=184"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "SteelSeries Arctis Wireless Gaming Headset 733",
@@ -1662,7 +1662,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=185"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "Logitech G Noise Cancelling Headset 754",
@@ -1671,7 +1671,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=186"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "SteelSeries Arctis Wireless Gaming Headset 524",
@@ -1680,7 +1680,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=187"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "Razer Wireless Gaming Headset 88",
@@ -1689,7 +1689,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=188"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "Logitech G Noise Cancelling Headset 162",
@@ -1698,7 +1698,7 @@ export const allProducts = [
     "originalPrice": 14227,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=189"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "Logitech G Noise Cancelling Headset 981",
@@ -1707,7 +1707,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.5,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=190"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "Razer Wireless Gaming Headset 150",
@@ -1716,7 +1716,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=191"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "SteelSeries Arctis Wireless Gaming Headset 221",
@@ -1725,7 +1725,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=192"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "Logitech G Noise Cancelling Headset 99",
@@ -1734,7 +1734,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.7,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=193"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "Razer Wireless Gaming Headset 398",
@@ -1743,7 +1743,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=194"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "SteelSeries Arctis 7.1 Surround Sound 628",
@@ -1752,7 +1752,7 @@ export const allProducts = [
     "originalPrice": 20345,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/headset,headphones?lock=195"
+    "image": import.meta.env.BASE_URL + "images/cat_headset.png"
   },
   {
     "name": "Secretlab Gaming Chair 35",
@@ -1761,7 +1761,7 @@ export const allProducts = [
     "originalPrice": 22935,
     "rating": 4.7,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=196"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Corsair Standing Gaming Desk 954",
@@ -1770,7 +1770,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=197"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Corsair Gaming Chair 992",
@@ -1779,7 +1779,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=198"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "DXRacer Gaming Chair 248",
@@ -1788,7 +1788,7 @@ export const allProducts = [
     "originalPrice": 14632,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=199"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Secretlab L-Shaped Desk 309",
@@ -1797,7 +1797,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=200"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Secretlab Gaming Chair 302",
@@ -1806,7 +1806,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=201"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Herman Miller Gaming Chair 748",
@@ -1815,7 +1815,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=202"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "DXRacer L-Shaped Desk 193",
@@ -1824,7 +1824,7 @@ export const allProducts = [
     "originalPrice": 15329,
     "rating": 4.5,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=203"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "DXRacer Ergonomic Mesh Chair 458",
@@ -1833,7 +1833,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.8,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=204"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Secretlab Standing Gaming Desk 821",
@@ -1842,7 +1842,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=205"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Corsair Ergonomic Mesh Chair 441",
@@ -1851,7 +1851,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=206"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Herman Miller Ergonomic Mesh Chair 497",
@@ -1860,7 +1860,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=207"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Herman Miller Gaming Chair 249",
@@ -1869,7 +1869,7 @@ export const allProducts = [
     "originalPrice": 9540,
     "rating": 4.2,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=208"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Corsair L-Shaped Desk 653",
@@ -1878,7 +1878,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=209"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Herman Miller L-Shaped Desk 517",
@@ -1887,7 +1887,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gamingchair,chair?lock=210"
+    "image": import.meta.env.BASE_URL + "images/cat_chair.png"
   },
   {
     "name": "Elgato Stream Deck USB Microphone 484",
@@ -1896,7 +1896,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=211"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Logitech Webcam Webcam 1080p60 622",
@@ -1905,7 +1905,7 @@ export const allProducts = [
     "originalPrice": 11433,
     "rating": 3.7,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=212"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Blue Yeti Capture Card 858",
@@ -1914,7 +1914,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.1,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=213"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Elgato Stream Deck Webcam 1080p60 905",
@@ -1923,7 +1923,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.8,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=214"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Elgato Stream Deck Webcam 1080p60 777",
@@ -1932,7 +1932,7 @@ export const allProducts = [
     "originalPrice": 14618,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=215"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Logitech Webcam USB Microphone 998",
@@ -1941,7 +1941,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=216"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Razer Seiren Webcam 1080p60 649",
@@ -1950,7 +1950,7 @@ export const allProducts = [
     "originalPrice": 21395,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=217"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Logitech Webcam RGB Mousepad 394",
@@ -1959,7 +1959,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.6,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=218"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Logitech Webcam Capture Card 250",
@@ -1968,7 +1968,7 @@ export const allProducts = [
     "originalPrice": 10522,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=219"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Blue Yeti Capture Card 182",
@@ -1977,7 +1977,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.9,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=220"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Logitech Webcam RGB Mousepad 474",
@@ -1986,7 +1986,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 5,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=221"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Razer Seiren Webcam 1080p60 374",
@@ -1995,7 +1995,7 @@ export const allProducts = [
     "originalPrice": 15722,
     "rating": 4,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=222"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Razer Seiren USB Microphone 234",
@@ -2004,7 +2004,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 4.3,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=223"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Blue Yeti RGB Mousepad 901",
@@ -2013,7 +2013,7 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.6,
     "isNew": false,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=224"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   },
   {
     "name": "Logitech Webcam Capture Card 515",
@@ -2022,6 +2022,6 @@ export const allProducts = [
     "originalPrice": null,
     "rating": 3.5,
     "isNew": true,
-    "image": "https://loremflickr.com/400/400/gaming,accessories?lock=225"
+    "image": import.meta.env.BASE_URL + "images/cat_accessory.png"
   }
 ];

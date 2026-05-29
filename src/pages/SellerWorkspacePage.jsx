@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   Plus, Package, FileText, XCircle, Settings, 
-  UploadCloud, AlertCircle, Edit2, Trash2, CheckCircle, Search, Filter 
+  UploadCloud, AlertCircle, Edit2, Trash2, CheckCircle, Search, Filter, ArrowLeft
 } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 
@@ -29,7 +29,7 @@ const SellProductForm = ({ onSubmitProduct }) => {
       views: 0,
       submittedAt: new Date().toISOString(),
       price: parseFloat(formData.price),
-      image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=400&h=400'
+      image: `${import.meta.env.BASE_URL}images/pc_builder_1779654793386.png`
     });
     setSubmitted(true);
   };
@@ -219,7 +219,7 @@ const MyListings = ({ myProducts, onDelete }) => {
 };
 
 // MASTER COMPONENT: Workspace Layout
-export const SellerWorkspacePage = ({ myProducts, onSubmitProduct, onDeleteProduct }) => {
+export const SellerWorkspacePage = ({ myProducts, onSubmitProduct, onDeleteProduct, onBack }) => {
   const [activeTab, setActiveTab] = useState('sell');
 
   const tabs = [
@@ -235,6 +235,11 @@ export const SellerWorkspacePage = ({ myProducts, onSubmitProduct, onDeleteProdu
       
       {/* Left Sidebar */}
       <div className="w-full md:w-64 shrink-0 flex flex-col gap-2">
+        {onBack && (
+          <button onClick={onBack} className="flex items-center gap-2 text-sm font-bold text-text-primary border border-border px-4 py-2 rounded hover:bg-secondary transition w-fit mb-4">
+            <ArrowLeft size={16} /> Back
+          </button>
+        )}
         <h1 className="text-xl font-black text-dark mb-4 tracking-tight px-3">Workspace</h1>
         
         <div className="flex flex-col gap-1">

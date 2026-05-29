@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { 
   Cpu, Wind, CircuitBoard, MemoryStick, Monitor, HardDrive, Zap, Box, 
   CheckCircle, AlertTriangle, Save, Share2, Trash2, Plus, Info, 
-  ShieldCheck, RefreshCcw, Truck, Headphones, ChevronDown, ChevronRight, Wrench
+  ShieldCheck, RefreshCcw, Truck, Headphones, ChevronDown, ChevronRight, Wrench, ArrowLeft
 } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 import { defaultBuild, pcComponents } from '../data/pcComponents';
@@ -73,6 +73,11 @@ export const PCBuilderPage = () => {
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 border-b border-border pb-6">
         <div>
+          {onBack && (
+            <button onClick={onBack} className="flex items-center gap-2 text-sm font-bold text-text-primary border border-border px-4 py-2 rounded hover:bg-secondary transition w-fit mb-6">
+              <ArrowLeft size={16} /> Back
+            </button>
+          )}
           <div className="flex items-center gap-2 mb-2">
             <h1 className="text-3xl font-black text-dark tracking-tight">Build My Custom PC</h1>
             <Info size={16} className="text-red-500" />
@@ -125,10 +130,10 @@ export const PCBuilderPage = () => {
           {/* PC Image Container */}
           <div className="bg-white rounded-2xl border border-border shadow-sm p-8 flex flex-col items-center justify-center min-h-[450px]">
              {/* Note: In a real app we'd map parts to visuals. Mocking the beautiful PC case here */}
-            <img src="/images/PC building page.png" alt="PC Build" className="w-full h-full object-contain mix-blend-multiply opacity-0" style={{display: 'none'}} />
+            <img src={`${import.meta.env.BASE_URL}images/PC building page.png`} alt="PC Build" className="w-full h-full object-contain mix-blend-multiply opacity-0" style={{display: 'none'}} />
             <div className="relative w-full aspect-square max-w-[400px]">
               <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/20 via-transparent to-blue-500/20 rounded-xl"></div>
-              <img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&q=80&w=800&h=800" alt="PC Preview" className="w-full h-full object-cover rounded-xl shadow-2xl" />
+              <img src={`${import.meta.env.BASE_URL}images/pc_builder_1779654793386.png`} alt="PC Preview" className="w-full h-full object-cover rounded-xl shadow-2xl" />
             </div>
             <p className="text-[10px] text-text-secondary mt-6">* Preview is for illustration only. Final product may vary.</p>
           </div>
@@ -237,50 +242,24 @@ export const PCBuilderPage = () => {
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-8 rounded bg-gray-900 overflow-hidden shrink-0">
-                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=100&h=60" alt="Valorant" className="w-full h-full object-cover" />
+                    <img src={`${import.meta.env.BASE_URL}images/pc_builder_1779654793386.png`} alt="Valorant" className="w-full h-full object-cover" />
                   </div>
                   <div className="flex flex-col">
                     <span className="font-bold text-xs text-dark">Valorant</span>
-                    <span className="text-[10px] text-text-secondary">Ultra Settings</span>
+                    <span className="text-[10px] text-text-secondary">Esports Settings</span>
                   </div>
                 </div>
-                <span className="font-bold text-green-600 text-sm">{getFPS(450)}+ FPS</span>
+                <span className="font-bold text-green-600 text-sm">{getFPS(240)}+ FPS</span>
               </div>
 
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-8 rounded bg-gray-900 overflow-hidden shrink-0">
-                    <img src="https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=100&h=60" alt="Cyberpunk" className="w-full h-full object-cover" />
+                    <img src={`${import.meta.env.BASE_URL}images/pc_builder_1779654793386.png`} alt="Cyberpunk" className="w-full h-full object-cover" />
                   </div>
                   <div className="flex flex-col">
                     <span className="font-bold text-xs text-dark">Cyberpunk 2077</span>
                     <span className="text-[10px] text-text-secondary">Ultra Settings, RT Off</span>
-                  </div>
-                </div>
-                <span className="font-bold text-green-600 text-sm">{getFPS(120)}+ FPS</span>
-              </div>
-
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-8 rounded bg-gray-900 overflow-hidden shrink-0">
-                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=100&h=60" alt="COD" className="w-full h-full object-cover" />
-                  </div>
-                  <div className="flex flex-col">
-                    <span className="font-bold text-xs text-dark">Call of Duty: Warzone</span>
-                    <span className="text-[10px] text-text-secondary">Ultra Settings</span>
-                  </div>
-                </div>
-                <span className="font-bold text-green-600 text-sm">{getFPS(180)}+ FPS</span>
-              </div>
-
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-8 rounded bg-gray-900 overflow-hidden shrink-0">
-                    <img src="https://images.unsplash.com/photo-1610813958045-8f53a4799042?auto=format&fit=crop&q=80&w=100&h=60" alt="Forza" className="w-full h-full object-cover" />
-                  </div>
-                  <div className="flex flex-col">
-                    <span className="font-bold text-xs text-dark">Forza Horizon 5</span>
-                    <span className="text-[10px] text-text-secondary">Extreme Settings</span>
                   </div>
                 </div>
                 <span className="font-bold text-green-600 text-sm">{getFPS(160)}+ FPS</span>

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Button } from '../ui/Button';
 import heroBg from '/images/hero_bg_1779654779374.png'; // Make sure to match the actual file name
 
-export const Hero = () => {
+export const Hero = ({ onSelectCategory }) => {
   return (
     <div className="relative h-[500px] rounded-[32px] overflow-hidden mb-8 shadow-2xl group">
       {/* Background Image */}
@@ -35,8 +35,7 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <Button variant="primary">Shop Now</Button>
-            <Button variant="outline">Explore Deals</Button>
+            <Button onClick={() => onSelectCategory('Deals')} variant="outline">Explore Deals</Button>
           </div>
         </motion.div>
       </div>

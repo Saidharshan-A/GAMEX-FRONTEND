@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronRight, MapPin, Truck, CreditCard, Lock, Edit2, Plus } from 'lucide-react';
+import { ArrowLeft, ChevronRight, MapPin, Truck, CreditCard, Lock, Edit2, Plus } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 
 export const CheckoutPage = ({ cartItems = [], onBack, onComplete }) => {
@@ -42,7 +42,14 @@ export const CheckoutPage = ({ cartItems = [], onBack, onComplete }) => {
   return (
     <div className="flex flex-col gap-4 animate-in fade-in duration-500 pb-4">
       {/* Header */}
-      <h1 className="text-3xl font-black text-dark tracking-tight">Checkout</h1>
+      <div className="flex items-center gap-4">
+        {onBack && (
+          <button onClick={onBack} className="flex items-center gap-2 text-sm font-bold text-text-primary border border-border px-4 py-2 rounded hover:bg-secondary transition w-fit">
+            <ArrowLeft size={16} /> Back
+          </button>
+        )}
+        <h1 className="text-3xl font-black text-dark tracking-tight">Checkout</h1>
+      </div>
 
       {/* Stepper */}
       <div className="flex items-center space-x-4">

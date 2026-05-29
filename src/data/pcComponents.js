@@ -8,7 +8,7 @@ export const pcComponents = {
       price: 58900,
       wattage: 125,
       tier: 'ultra',
-      image: '/images/cat_processor_1779732439324.png' // re-using existing images for now
+      image: import.meta.env.BASE_URL + "images/cat_processor_1779732439324.png" // re-using existing images for now
     },
     {
       id: 'cpu-2',
@@ -18,7 +18,7 @@ export const pcComponents = {
       price: 38500,
       wattage: 120,
       tier: 'high',
-      image: '/images/cat_processor_1779732439324.png'
+      image: import.meta.env.BASE_URL + "images/cat_processor_1779732439324.png"
     }
   ],
   cooler: [
@@ -30,7 +30,7 @@ export const pcComponents = {
       price: 24500,
       wattage: 15,
       tier: 'ultra',
-      image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&q=80&w=400&h=400'
+      image: import.meta.env.BASE_URL + "images/cat_cooling.png"
     }
   ],
   motherboard: [
@@ -42,7 +42,7 @@ export const pcComponents = {
       price: 42900,
       wattage: 40,
       tier: 'ultra',
-      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400&h=400'
+      image: import.meta.env.BASE_URL + "images/cat_motherboard.png"
     }
   ],
   ram: [
@@ -54,7 +54,7 @@ export const pcComponents = {
       price: 12499,
       wattage: 10,
       tier: 'high',
-      image: '/images/cat_memory_1779732467941.png'
+      image: import.meta.env.BASE_URL + "images/cat_memory_1779732467941.png"
     }
   ],
   gpu: [
@@ -66,7 +66,7 @@ export const pcComponents = {
       price: 159900,
       wattage: 450,
       tier: 'ultra',
-      image: '/images/rtx_4090_1779654832020.png'
+      image: import.meta.env.BASE_URL + "images/rtx_4090_1779654832020.png"
     },
     {
       id: 'gpu-2',
@@ -76,7 +76,7 @@ export const pcComponents = {
       price: 99900,
       wattage: 355,
       tier: 'high',
-      image: '/images/rtx_4090_1779654832020.png'
+      image: import.meta.env.BASE_URL + "images/rtx_4090_1779654832020.png"
     }
   ],
   storage: [
@@ -88,7 +88,7 @@ export const pcComponents = {
       price: 15900,
       wattage: 8,
       tier: 'ultra',
-      image: 'https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&q=80&w=400&h=400'
+      image: import.meta.env.BASE_URL + "images/pc_builder_1779654793386.png"
     }
   ],
   psu: [
@@ -100,7 +100,7 @@ export const pcComponents = {
       price: 18900,
       wattage: 0, // Doesn't consume its own capacity
       tier: 'ultra',
-      image: 'https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&q=80&w=400&h=400'
+      image: import.meta.env.BASE_URL + "images/cat_psu.png"
     }
   ],
   case: [
@@ -112,7 +112,7 @@ export const pcComponents = {
       price: 14900,
       wattage: 10, // fans
       tier: 'high',
-      image: 'https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&q=80&w=400&h=400'
+      image: import.meta.env.BASE_URL + "images/pc_builder_1779654793386.png"
     }
   ]
 };

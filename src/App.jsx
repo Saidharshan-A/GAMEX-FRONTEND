@@ -80,12 +80,13 @@ function App() {
     >
       {showSellerWorkspace ? (
         <SellerWorkspacePage 
+          onBack={() => setShowSellerWorkspace(false)}
           myProducts={myProducts}
           onSubmitProduct={(product) => setMyProducts(prev => [product, ...prev])}
           onDeleteProduct={(id) => setMyProducts(prev => prev.filter(p => p.id !== id))}
         />
       ) : showPCBuilder ? (
-        <PCBuilderPage />
+        <PCBuilderPage onBack={() => setShowPCBuilder(false)} />
       ) : showOrderSuccess ? (
         <OrderSuccessPage
           orderData={lastOrder}
@@ -135,10 +136,11 @@ function App() {
           onAddToCart={addToCart}
         />
       ) : selectedCategory === 'All Categories' ? (
-        <Home onRequireAuth={() => {}} onSelectProduct={setSelectedProduct} onAddToCart={addToCart} />
+        <Home onRequireAuth={() => {}} onSelectProduct={setSelectedProduct} onAddToCart={addToCart} onSelectCategory={handleSelectCategory} />
       ) : (
         <CategoryPage 
           selectedCategory={selectedCategory} 
+          onBack={() => handleSelectCategory('All Categories')}
           onRequireAuth={() => {}} 
           onSelectProduct={setSelectedProduct} 
           onAddToCart={addToCart}

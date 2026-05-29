@@ -1,8 +1,6 @@
 import React from 'react';
 import { ProductCard } from '../ui/ProductCard';
 import { motion } from 'framer-motion';
-import rtxImg from '/images/rtx_4090_1779654832020.png';
-import headsetImg from '/images/headset_1779654846277.png';
 
 export const FeaturedProducts = ({ onRequireAuth, onSelectProduct, onAddToCart }) => {
   const products = [
@@ -13,7 +11,7 @@ export const FeaturedProducts = ({ onRequireAuth, onSelectProduct, onAddToCart }
       originalPrice: null,
       rating: 5.0,
       isNew: true,
-      image: rtxImg
+      image: `${import.meta.env.BASE_URL}images/rtx_4090_1779654832020.png`
     },
     {
       name: "Logitech G Pro X Superlight",
@@ -22,7 +20,7 @@ export const FeaturedProducts = ({ onRequireAuth, onSelectProduct, onAddToCart }
       originalPrice: 15999,
       rating: 4.8,
       isNew: false,
-      image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80&w=400&h=400"
+      image: `${import.meta.env.BASE_URL}images/mouse_logitech.png`
     },
     {
       name: "PlayStation 5 Slim Console",
@@ -31,7 +29,7 @@ export const FeaturedProducts = ({ onRequireAuth, onSelectProduct, onAddToCart }
       originalPrice: 39920,
       rating: 4.9,
       isNew: false,
-      image: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&q=80&w=400&h=400"
+      image: `${import.meta.env.BASE_URL}images/console_ps5.png`
     },
     {
       name: "Razer Huntsman V3 Pro",
@@ -40,7 +38,7 @@ export const FeaturedProducts = ({ onRequireAuth, onSelectProduct, onAddToCart }
       originalPrice: null,
       rating: 4.7,
       isNew: true,
-      image: "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&q=80&w=400&h=400"
+      image: `${import.meta.env.BASE_URL}images/keyboard_razer.png`
     },
     {
       name: "Premium Gaming Headset",
@@ -49,7 +47,7 @@ export const FeaturedProducts = ({ onRequireAuth, onSelectProduct, onAddToCart }
       originalPrice: 19999,
       rating: 4.6,
       isNew: false,
-      image: headsetImg
+      image: `${import.meta.env.BASE_URL}images/headset_1779654846277.png`
     }
   ];
 

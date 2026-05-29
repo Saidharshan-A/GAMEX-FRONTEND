@@ -3,7 +3,9 @@ import { ProductCard } from '../components/ui/ProductCard';
 import { motion } from 'framer-motion';
 import { allProducts } from '../data/products';
 
-export const CategoryPage = ({ selectedCategory, onRequireAuth, onSelectProduct, onAddToCart }) => {
+import { ArrowLeft } from 'lucide-react';
+
+export const CategoryPage = ({ selectedCategory, onBack, onRequireAuth, onSelectProduct, onAddToCart }) => {
   const displayCategory = selectedCategory === 'Deals' ? 'All Deals' : selectedCategory;
   
   // If "Deals", we might just filter items with discounts.
@@ -17,8 +19,13 @@ export const CategoryPage = ({ selectedCategory, onRequireAuth, onSelectProduct,
   return (
     <div className="flex flex-col gap-8">
       <section className="mb-12">
-        <div className="flex justify-between items-end mb-8">
+        <div className="flex justify-between items-start mb-8">
           <div>
+            {onBack && (
+              <button onClick={onBack} className="flex items-center gap-2 text-sm font-bold text-text-primary border border-border px-4 py-2 rounded hover:bg-secondary transition w-fit mb-6">
+                <ArrowLeft size={16} /> Back
+              </button>
+            )}
             <h2 className="text-3xl font-black text-dark tracking-tight uppercase">{displayCategory}</h2>
             <div className="w-16 h-1 bg-accent mt-3 rounded-full"></div>
             <p className="text-text-secondary mt-2">Showing {productsToDisplay.length} products</p>
