@@ -45,7 +45,7 @@ const ComponentRow = ({ category, icon: Icon, component, onChange }) => (
   </div>
 );
 
-export const PCBuilderPage = () => {
+export const PCBuilderPage = ({ onBack }) => {
   const [build, setBuild] = useState(defaultBuild);
   const [perfTab, setPerfTab] = useState('1440p');
 
