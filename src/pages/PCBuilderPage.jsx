@@ -121,10 +121,6 @@ export const PCBuilderPage = ({ onBack }) => {
         <div className="lg:col-span-5 flex flex-col gap-6">
           <div className="flex justify-between items-center">
             <h3 className="font-bold text-sm tracking-wide uppercase">2. YOUR BUILD PREVIEW</h3>
-            <div className="flex bg-white rounded-md border border-border overflow-hidden">
-              <button className="px-3 py-1 text-xs font-bold text-text-secondary bg-secondary">2D View</button>
-              <button className="px-3 py-1 text-xs font-bold text-accent bg-white border-l border-border">3D View</button>
-            </div>
           </div>
 
           {/* PC Image Container */}
