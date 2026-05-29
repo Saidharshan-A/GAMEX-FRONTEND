@@ -38,7 +38,7 @@ const MicroExpander = ({ icon: Icon, text, badge, onClick }) => {
   );
 };
 
-export const Navbar = ({ onCartClick, cartItemCount, onSelectCategory, selectedCategory, onAccountClick }) => {
+export const Navbar = ({ onCartClick, cartItemCount, onSelectCategory, selectedCategory, onAccountClick, onLogoClick }) => {
   const navLinks = ['Shop', 'Marketplace', 'Deals', 'PC Builder', 'Sell Product'];
 
   return (
@@ -46,7 +46,7 @@ export const Navbar = ({ onCartClick, cartItemCount, onSelectCategory, selectedC
       <div className="max-w-[1600px] mx-auto px-6 h-20 flex items-center justify-between">
         
         {/* Logo */}
-        <div className="flex items-center space-x-2 mr-8 cursor-pointer">
+        <div onClick={onLogoClick} className="flex items-center space-x-2 mr-8 cursor-pointer hover:opacity-80 transition-opacity">
           <div className="w-8 h-8 bg-accent rounded-br-xl rounded-tl-xl flex items-center justify-center">
             <span className="text-white font-black text-xl leading-none">X</span>
           </div>

@@ -4,11 +4,11 @@ import { TopBar } from './TopBar';
 import { Navbar } from './Navbar';
 import { Sidebar } from './Sidebar';
 
-export const Layout = ({ children, selectedCategory, onSelectCategory, hideSidebar, onCartClick, cartItemCount, onAccountClick }) => {
+export const Layout = ({ children, selectedCategory, onSelectCategory, hideSidebar, onCartClick, cartItemCount, onAccountClick, onLogoClick }) => {
   return (
     <div className="min-h-screen bg-secondary/30 flex flex-col">
       <TopBar />
-      <Navbar onCartClick={onCartClick} cartItemCount={cartItemCount} onSelectCategory={onSelectCategory} selectedCategory={selectedCategory} onAccountClick={onAccountClick} />
+      <Navbar onCartClick={onCartClick} cartItemCount={cartItemCount} onSelectCategory={onSelectCategory} selectedCategory={selectedCategory} onAccountClick={onAccountClick} onLogoClick={onLogoClick} />
 
       <main className="flex-1 max-w-[1600px] mx-auto w-full px-6 py-8 flex gap-8">
         {!hideSidebar && (

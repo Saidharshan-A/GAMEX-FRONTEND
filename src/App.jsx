@@ -61,6 +61,7 @@ function App() {
       selectedCategory={selectedCategory} 
       onSelectCategory={handleSelectCategory}
       hideSidebar={!!selectedProduct || showCart || showCheckout || showOrderSuccess || showPCBuilder || showSellerWorkspace}
+      onLogoClick={() => setShowStore(false)}
       onCartClick={() => {
         setShowOrderSuccess(false);
         setShowCart(true);
