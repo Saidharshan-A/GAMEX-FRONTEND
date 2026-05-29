@@ -19,24 +19,6 @@ export const Landing = ({ onEnter }) => {
         <source src="https://res.cloudinary.com/dnxaq3bsf/video/upload/v1779684210/WhatsApp_Video_2026-05-24_at_10.11.55_PM_rwhm2h.mp4" type="video/mp4" />
       </video>
 
-      {/* Navigation */}
-      <nav className="w-full pt-12 flex justify-center relative z-10">
-        <ul className="flex space-x-10 text-sm font-medium">
-          {navLinks.map((link, idx) => (
-            <li key={idx} className="relative">
-              <a
-                href="#"
-                className={`${link === 'Home' ? 'text-[#00d26a]' : 'text-white hover:text-[#00d26a]'} transition-colors`}
-              >
-                {link}
-              </a>
-              {link === 'Home' && (
-                <div className="absolute -bottom-2 left-0 w-full h-[2px] bg-[#00d26a]"></div>
-              )}
-            </li>
-          ))}
-        </ul>
-      </nav>
 
       {/* Main Content */}
       <main className="flex-1 flex flex-col items-center justify-center relative z-10 w-full px-6">
