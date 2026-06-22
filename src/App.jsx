@@ -60,7 +60,7 @@ function App() {
     <Layout 
       selectedCategory={selectedCategory} 
       onSelectCategory={handleSelectCategory}
-      hideSidebar={!!selectedProduct || showCart || showCheckout || showOrderSuccess || showPCBuilder || showSellerWorkspace}
+      hideSidebar={selectedCategory === 'All Categories' || !!selectedProduct || showCart || showCheckout || showOrderSuccess || showPCBuilder || showSellerWorkspace}
       onLogoClick={() => handleSelectCategory('All Categories')}
       onCartClick={() => {
         setShowOrderSuccess(false);

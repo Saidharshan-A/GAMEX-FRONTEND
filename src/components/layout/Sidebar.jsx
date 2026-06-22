@@ -27,11 +27,11 @@ export const Sidebar = ({ selectedCategory = 'All Categories', onSelectCategory 
       <div className="bg-white rounded-2xl shadow-sm border border-border p-4 sticky top-36">
         <ul className="space-y-1">
           {categories.map((cat, idx) => {
-            const isSelected = selectedCategory === cat.name;
+            const isSelected = selectedCategory === cat.name || (cat.name === 'All Categories' && selectedCategory === 'Shop');
             return (
               <li key={idx}>
                 <button 
-                  onClick={() => onSelectCategory && onSelectCategory(cat.name)}
+                  onClick={() => onSelectCategory && onSelectCategory(cat.name === 'All Categories' ? 'Shop' : cat.name)}
                   className={`w-full flex items-center space-x-3 px-4 py-3 rounded-xl transition-all duration-200 group
                     ${isSelected ? 'bg-dark text-white shadow-md' : 'hover:bg-secondary text-text-primary'}`}
                 >
